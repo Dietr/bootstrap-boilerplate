@@ -1,9 +1,13 @@
-<div class="o-row c-color-white">
-  <div class="o-wrapper o-wrapper--huge c-ui c-ui--footer">
-    {% include molecule.social-links.html %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      {% include molecule.social-links.html %}
+    </div>
 
-    <small class="u-margin-bottom-none">
-      ©2016 {{ site.author }}. <a href="{{ site.github.url }}/legal/" class="c-link">Legal</a>
-    </small>
+    <div class="col-sm-6">
+      <p class="text-right">
+        ©2016 {{ site.author }}. <a href="{{ site.github.url }}/legal/">Legal</a>
+      </p>
+    </div>
   </div>
 </div>

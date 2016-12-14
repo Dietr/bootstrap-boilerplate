@@ -1,23 +1,8 @@
-<nav class="c-navigation js-nav">
-  <ul class="o-list-bare c-navigation-list">
-
-    <!-- Define your site navigation in _config.yml -->
-    {% for item in site.navigation %}
-    <li class="c-navigation-list__item {% if page.url contains item.url %} is-active{% endif %}">
-      <a href="{{ site.github.url }}/{{ item.url }}" class="c-link c-link--bare">{{ item.title | capitalize }}</a>
-    </li>
-    {% endfor %}
-
-    <!-- External link -->
-    <li class="c-navigation-list__item">
-      <a href="#!" alt="Contact" class="c-btn c-btn--primary c-btn--ghost c-btn--small">
-        {% include atom.symbol.html value="github" %} Github
-      </a>
-    </li>
-
-  </ul>
-</nav>
-
-<button class="c-navigation-toggle js-nav-toggle">
-  Menu
-</button>
+<ul class="nav navbar-nav navbar-right">
+  <!-- Define your site navigation in _config.yml -->
+  {% for item in site.navigation %}
+  <li class="{% if page.url contains item.url %} active{% endif %}">
+    <a href="{{ site.github.url }}/{{ item.url }}">{{ item.title | capitalize }}</a>
+  </li>
+  {% endfor %}
+</ul>

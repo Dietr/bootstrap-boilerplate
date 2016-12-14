@@ -4,8 +4,43 @@
  * Licensed under MIT (https://github.com/twbs/../vendor/bootstrap-sass/assets/stylesheets/bootstrap/blob/master/LICENSE)
  */
 
-// Core variables and mixins
-@import "variables";
+// Core variables
+@import "_variables/variables.global";
+@import "_variables/variables.colors";
+@import "_variables/variables.media-queries";
+@import "_variables/variables.grid";
+@import "_variables/variables.container";
+@import "_variables/variables.core";
+@import "_variables/variables.typography";
+@import "_variables/variables.code";
+@import "_variables/variables.iconography";
+
+// Component variables
+@import "_variables/variables.jumbotron";
+@import "_variables/variables.navbar";
+@import "_variables/variables.navs";
+@import "_variables/variables.tables";
+@import "_variables/variables.buttons";
+@import "_variables/variables.forms";
+@import "_variables/variables.dropdowns";
+@import "_variables/variables.pagination";
+@import "_variables/variables.pager";
+@import "_variables/variables.tooltips";
+@import "_variables/variables.popovers";
+@import "_variables/variables.labels";
+@import "_variables/variables.modals";
+@import "_variables/variables.alerts";
+@import "_variables/variables.progress-bars";
+@import "_variables/variables.list-group";
+@import "_variables/variables.panels";
+@import "_variables/variables.thumbnails";
+@import "_variables/variables.wells";
+@import "_variables/variables.badges";
+@import "_variables/variables.breadcrumbs";
+@import "_variables/variables.carousel";
+@import "_variables/variables.close";
+
+// Tools
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 // Reset and dependencies
@@ -54,3 +89,6 @@
 // Utility classes
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+// Custom components
+@import "_components/components.symbols";

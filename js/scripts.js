@@ -11572,34 +11572,3 @@ if (typeof jQuery === 'undefined') {
     });
   });
 }(jQuery);
-'use strict';
-
-/* ==========================================================================
-   #Mobilenav
-   ========================================================================== */
-
-const button = document.querySelector('.js-nav-toggle');
-const navigation = document.querySelector('.js-nav');
-const navigationHolder = document.querySelector('.js-nav-menu');
-
-function toggleNav(e) {
-  navigation.classList.toggle('open');
-  navigationHolder.classList.toggle('open');
-}
-
-if ($('.js-nav-toggle')[0] != undefined) {
-  button.addEventListener('click', toggleNav);
-}
-
-const moreButton = document.querySelector('.js-more-toggle');
-const more = document.querySelector('.js-more');
-const moreHolder = document.querySelector('.js-more-menu');
-
-function toggleMore(e) {
-  more.classList.toggle('open');
-  moreHolder.classList.toggle('open');
-}
-
-if ($('.js-more-toggle')[0] != undefined) {
-  moreButton.addEventListener('click', toggleMore);
-}

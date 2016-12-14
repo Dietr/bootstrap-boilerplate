@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #SYMBOLS
+   ========================================================================== */
+
+.c-symbol {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  bottom: .2ex;
+  position: relative;
+  vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}

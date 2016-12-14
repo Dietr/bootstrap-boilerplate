@@ -20,18 +20,23 @@ exclude:
 
 
 # Site info
-author: Wolters Kluwer
-title: 1-2-3 Support
+author: Dieter Peirs
+title: Bootstrap boilerplate
 timezone: UTC
-description: Prototype.
+description: A Jekyll boilerplate.
 url: none
 email: none
+twitter_username: DieterPeirs
+github_username: dietr
+dribbble_username: DieterPeirs
+medium_username: "@DieterPeirs"
+google_analytics: none
 
 
 # Site navigation
-# navigation:
-#   - title: Base
-#     url: base/
+navigation:
+  - title: Base
+    url: base/
 
 
 # Collections

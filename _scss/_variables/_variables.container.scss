@@ -1,0 +1,12 @@
+// ==========================================================================
+// Container
+// ==========================================================================
+
+$container-tablet:             (600px + $grid-gutter-width);
+$container-sm:                 $container-tablet;
+
+$container-desktop:            (900px + $grid-gutter-width);
+$container-md:                 $container-desktop;
+
+$container-large-desktop:      (1200px + $grid-gutter-width);
+$container-lg:                 $container-large-desktop;
