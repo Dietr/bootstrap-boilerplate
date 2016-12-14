@@ -1,0 +1,11 @@
+{% if page.title == 'Home' %}
+<h1 class="c-brand-mark u-h6">
+  <span>{{ site.title }}</span>
+</h1>
+{% else %}
+<p class="c-brand-mark u-h6">
+  <a href="{{ site.github.url }}/" alt="Homepage" class="c-brand-mark__link">
+    {{ site.title }}
+  </a>
+</p>
+{% endif %}

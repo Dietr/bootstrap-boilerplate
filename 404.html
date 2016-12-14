@@ -1,0 +1,22 @@
+---
+title: '404'
+layout: default
+permalink: /404.html
+---
+
+<div class="o-row-large c-color-primary">
+  <div class="o-wrapper">
+    <div class="o-box o-box--flush">
+      <h1>404 – Page not found</h1>
+      <h2>Where to go from here:</h2>
+      <ul class="o-list-bare">
+        <!-- Define your site navigation in _config.yml -->
+        {% for item in site.navigation %}
+        <li class="">
+          <a href="{{ site.github.url }}/{{ item.url }}" class="c-link c-link">{{ item.title | capitalize }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

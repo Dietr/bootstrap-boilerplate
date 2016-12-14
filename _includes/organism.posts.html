@@ -1,0 +1,14 @@
+{% for post in site.posts %}
+<a href="{{ post.url }}" class="c-card c-card--flex c-card--alpha">
+  <div class="c-card__visual">
+    <span class="c-card__icon">{{ post.icon }}</span>
+  </div>
+  <div class="c-card__body">
+    <h4 class="c-card__title u-margin-bottom-none">{{ post.title }}</h4>
+    <p class="c-meta c-card__meta">Posted in {{ post.category | capitalize }} on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+    {% if post.summary %}
+    <p class="u-margin-bottom-none">{{ post.summary }}</p>
+    {% endif %}
+  </div>
+</a>
+{% endfor %}

@@ -1,0 +1,12 @@
+{% if jekyll.environment == "production" %}
+<script>
+  {% include atom.enhance.js %}
+  loadJS( "{{ site.github.url }}/js/scripts.min.js" );
+  var stylesheet = loadCSS( "{{ "/css/screen.min.css" | prepend: site.github.url }}" );
+</script>
+<noscript>
+  <link rel="stylesheet" href="{{ "/css/screen.min.css" | prepend: site.github.url }}">
+</noscript>
+{% else %}
+<script src="{{ site.github.url }}/js/scripts.js"></script>
+{% endif %}

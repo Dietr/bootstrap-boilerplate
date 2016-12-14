@@ -1,0 +1,41 @@
+---
+# Jekyll settings
+permalink: pretty
+markdown: kramdown
+
+
+# Excluded files
+exclude:
+- Gem*
+- "*.lock"
+- "*rb"
+- ".git*"
+- "*.md"
+- "*.json"
+- node_modules
+- vendor
+- gulp*
+- ".jekyll-metadata"
+- ".*"
+
+
+# Site info
+author: Wolters Kluwer
+title: 1-2-3 Support
+timezone: UTC
+description: Prototype.
+url: none
+email: none
+
+
+# Site navigation
+# navigation:
+#   - title: Base
+#     url: base/
+
+
+# Collections
+# collections:
+#   collection:
+#     title: Collection
+#     output: true

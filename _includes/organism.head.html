@@ -1,0 +1,19 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ site.title }} – {{ page.title | capitalize }}{% else %}{{ site.title | capitalize }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if jekyll.environment == "production" %}
+  <style>{% include atom.critical.css %}</style>
+  <link rel="preload" href="{{ "/css/screen.min.css" | prepend: site.github.url }}" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ "/css/screen.min.css" | prepend: site.github.url }}"></noscript>
+  {% else %}
+  <link rel="stylesheet" href="{{ "/css/screen.css" | prepend: site.github.url }}">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | replace:'index.html',''| prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: "/" | prepend: site.url }}">
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  <meta property="og:title" content="{{ page.title | capitalize }}"/>
+  <meta property="og:url" content="{{ page.url | capitalize | prepend: site.url }}"/>
+</head>
