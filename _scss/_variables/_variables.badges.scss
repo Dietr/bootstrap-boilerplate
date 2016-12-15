@@ -2,11 +2,11 @@
 // Badges
 // ==========================================================================
 
-$badge-color:                 #fff;
-$badge-link-hover-color:      #fff;
+$badge-color:                 $white;
+$badge-link-hover-color:      $white;
 $badge-bg:                    $gray-light;
 $badge-active-color:          $link-color;
-$badge-active-bg:             #fff;
+$badge-active-bg:             $white;
 $badge-font-weight:           bold;
 $badge-line-height:           1;
-$badge-border-radius:         10px;
+$badge-border-radius:         $border-radius-base;

@@ -2,20 +2,20 @@
 // Panels
 // ==========================================================================
 
-$panel-bg:                    #fff;
-$panel-body-padding:          15px;
-$panel-heading-padding:       10px 15px;
+$panel-bg:                    $white;
+$panel-body-padding:          $padding-base;
+$panel-heading-padding:       $padding-base-large $padding-base-large;
 $panel-footer-padding:        $panel-heading-padding;
 $panel-border-radius:         $border-radius-base;
 
-$panel-inner-border:          #ddd;
-$panel-footer-bg:             #f5f5f5;
+$panel-inner-border:          $gray;
+$panel-footer-bg:             $white;
 
 $panel-default-text:          $gray-dark;
-$panel-default-border:        #ddd;
-$panel-default-heading-bg:    #f5f5f5;
+$panel-default-border:        $gray;
+$panel-default-heading-bg:    $white;
 
-$panel-primary-text:          #fff;
+$panel-primary-text:          $white;
 $panel-primary-border:        $brand-primary;
 $panel-primary-heading-bg:    $brand-primary;
 

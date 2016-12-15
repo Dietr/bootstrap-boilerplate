@@ -2,24 +2,30 @@
 // Core
 // ==========================================================================
 
-$padding-base-vertical:     6px;
-$padding-base-horizontal:   12px;
 
-$padding-large-vertical:    10px;
-$padding-large-horizontal:  16px;
+$padding-base:              6px;
+$padding-base-vertical:     $padding-base;
+$padding-base-horizontal:   $padding-base*2;
 
-$padding-small-vertical:    5px;
-$padding-small-horizontal:  10px;
+$padding-base-large:        $padding-base*2;
+$padding-large-vertical:    $padding-base-large;
+$padding-large-horizontal:  $padding-base-large*2;
 
-$padding-xs-vertical:       1px;
-$padding-xs-horizontal:     5px;
+$padding-base-small:        $padding-base/2;
+$padding-small-vertical:    $padding-base-small;
+$padding-small-horizontal:  $padding-base-small*2;
 
-$line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
+$padding-base-xsmall:       $padding-base/4;
+$padding-xs-vertical:       $padding-base-xsmall;
+$padding-xs-horizontal:     $padding-base-xsmall*2;
+
+$line-height-large:         1.25; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5;
 
 $border-radius-base:        4px;
+$border-radius-small:       2px;
 $border-radius-large:       6px;
-$border-radius-small:       3px;
+
 
 $component-active-color:    $white;
 $component-active-bg:       $brand-primary;
@@ -29,10 +35,10 @@ $caret-width-large:         5px;
 
 
 // Z-index master list
-$zindex-navbar:            1;
-$zindex-dropdown:          1;
-$zindex-popover:           5;
-$zindex-tooltip:           6;
-$zindex-navbar-fixed:      2;
-$zindex-modal-background:  3;
-$zindex-modal:             4;
+$zindex-navbar:             1;
+$zindex-dropdown:           1;
+$zindex-popover:            5;
+$zindex-tooltip:            6;
+$zindex-navbar-fixed:       2;
+$zindex-modal-background:   3;
+$zindex-modal:              4;

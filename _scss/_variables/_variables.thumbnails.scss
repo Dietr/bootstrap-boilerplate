@@ -2,10 +2,10 @@
 // Thumbnails
 // ==========================================================================
 
-$thumbnail-padding:           4px;
+$thumbnail-padding:           $padding-base-small;
 $thumbnail-bg:                $body-bg;
-$thumbnail-border:            #ddd;
+$thumbnail-border:            $gray-dark;
 $thumbnail-border-radius:     $border-radius-base;
 
 $thumbnail-caption-color:     $text-color;
-$thumbnail-caption-padding:   9px;
+$thumbnail-caption-padding:   $padding-base;

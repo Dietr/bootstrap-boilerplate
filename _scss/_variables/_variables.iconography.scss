@@ -2,7 +2,7 @@
 // Iconography
 // ==========================================================================
 
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/");
+$icon-font-path:          if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/");
 
 $icon-font-name:          "glyphicons-halflings-regular";
 $icon-font-svg-id:        "glyphicons_halflingsregular";

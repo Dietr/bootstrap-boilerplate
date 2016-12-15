@@ -2,9 +2,9 @@
 // Jumbotron
 // ==========================================================================
 
-$jumbotron-padding:              30px;
+$jumbotron-padding:              $padding-base-large*2;
 $jumbotron-color:                inherit;
 $jumbotron-bg:                   $gray-lighter;
 $jumbotron-heading-color:        inherit;
-$jumbotron-font-size:            ceil(($font-size-base * 1.5));
-$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5));
+$jumbotron-font-size:            $font-size-large;
+$jumbotron-heading-font-size:    $font-size-h1;

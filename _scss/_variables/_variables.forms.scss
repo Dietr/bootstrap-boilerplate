@@ -2,46 +2,46 @@
 // Forms
 // ==========================================================================
 
-$input-bg:                       #fff;
+$input-bg:                       $white;
 $input-bg-disabled:              $gray-lighter;
 
 $input-color:                    $gray;
-$input-border:                   #ccc;
+$input-border:                   $gray-light;
 
 $input-border-radius:            $border-radius-base;
 $input-border-radius-large:      $border-radius-large;
 $input-border-radius-small:      $border-radius-small;
 
-$input-border-focus:             #66afe9;
+$input-border-focus:             $brand-primary;
 
-$input-color-placeholder:        #999;
+$input-color-placeholder:        $gray-dark;
 
 $input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2);
 $input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2);
 $input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2);
 
-$form-group-margin-bottom:       15px;
+$form-group-margin-bottom:       $padding-base-large;
 
 $legend-color:                   $gray-dark;
-$legend-border-color:            #e5e5e5;
+$legend-border-color:            $gray-light;
 
 $input-group-addon-bg:           $gray-lighter;
 $input-group-addon-border-color: $input-border;
 
 $cursor-disabled:                not-allowed;
 
-$state-success-text:             #3c763d;
-$state-success-bg:               #dff0d8;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%);
+$state-success-text:             $brand-success;
+$state-success-bg:               $brand-success-light;
+$state-success-border:           $brand-success-dark;
 
-$state-info-text:                #31708f;
-$state-info-bg:                  #d9edf7;
-$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%);
+$state-info-text:                $brand-info;
+$state-info-bg:                  $brand-info-light;
+$state-info-border:              $brand-info-dark;
 
-$state-warning-text:             #8a6d3b;
-$state-warning-bg:               #fcf8e3;
-$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%);
+$state-warning-text:             $brand-warning;
+$state-warning-bg:               $brand-warning-light;
+$state-warning-border:           $brand-warning-dark;
 
-$state-danger-text:              #a94442;
-$state-danger-bg:                #f2dede;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%);
+$state-danger-text:              $brand-danger;
+$state-danger-bg:                $brand-danger-light;
+$state-danger-border:            $brand-danger-dark;

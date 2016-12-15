@@ -2,9 +2,9 @@
 // Breadcrumbs
 // ==========================================================================
 
-$breadcrumb-padding-vertical:   8px;
-$breadcrumb-padding-horizontal: 15px;
-$breadcrumb-bg:                 #f5f5f5;
-$breadcrumb-color:              #ccc;
+$breadcrumb-padding-vertical:   $padding-base-vertical;
+$breadcrumb-padding-horizontal: $padding-base-horizontal;
+$breadcrumb-bg:                 $gray-lighter;
+$breadcrumb-color:              $gray;
 $breadcrumb-active-color:       $gray-light;
 $breadcrumb-separator:          "/";

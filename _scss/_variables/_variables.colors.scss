@@ -53,7 +53,21 @@ $gray-light                 : tint($gray-base,40%);
 $gray-lighter               : tint($gray-base,90%);
 
 $brand-primary              : $olive;
+$brand-primary-light        : tint($brand-primary,10%);
+$brand-primary-dark         : shade($brand-primary,10%);
+$brand-secondary            : $olive;
+$brand-secondary-light      : tint($brand-secondary,10%);
+$brand-secondary-dark       : shade($brand-secondary,10%);
+
 $brand-success              : $green;
+$brand-success-light        : tint($brand-success,10%);
+$brand-success-dark         : shade($brand-success,10%);
 $brand-info                 : $blue;
+$brand-info-light           : tint($brand-info,10%);
+$brand-info-dark            : shade($brand-info,10%);
 $brand-warning              : $orange;
+$brand-warning-light        : tint($brand-warning,10%);
+$brand-warning-dark         : shade($brand-warning,10%);
 $brand-danger               : $red;
+$brand-danger-light         : tint($brand-danger,10%);
+$brand-danger-dark          : shade($brand-danger,10%);
