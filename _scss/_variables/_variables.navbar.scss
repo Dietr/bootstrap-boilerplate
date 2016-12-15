@@ -5,7 +5,7 @@
 $navbar-height:                             80px;
 $navbar-margin-bottom:                      0;
 $navbar-border-radius:                      0;
-$navbar-padding-horizontal:                 floor(($grid-gutter-width / 2));
+$navbar-padding-horizontal:                 $padding-base-large;
 $navbar-padding-vertical:                   (($navbar-height - $line-height-computed) / 2);
 $navbar-collapse-max-height:                340px;
 
@@ -13,21 +13,21 @@ $navbar-default-color:                      $gray;
 $navbar-default-bg:                         $white;
 $navbar-default-border:                     transparent;
 
-$navbar-default-link-color:                 $gray;
-$navbar-default-link-hover-color:           $gray-darker;
+$navbar-default-link-color:                 $gray-darker;
+$navbar-default-link-hover-color:           $gray-dark;
 $navbar-default-link-hover-bg:              transparent;
 $navbar-default-link-active-color:          $gray-dark;
-$navbar-default-link-active-bg:             darken($navbar-default-bg, 6.5%);
+$navbar-default-link-active-bg:             transparent;
 $navbar-default-link-disabled-color:        $gray;
 $navbar-default-link-disabled-bg:           transparent;
 
 $navbar-default-brand-color:                $navbar-default-link-color;
-$navbar-default-brand-hover-color:          darken($navbar-default-brand-color, 10%);
+$navbar-default-brand-hover-color:          $navbar-default-link-color;
 $navbar-default-brand-hover-bg:             transparent;
 
-$navbar-default-toggle-hover-bg:            $gray;
-$navbar-default-toggle-icon-bar-bg:         $gray-darker;
-$navbar-default-toggle-border-color:        $gray;
+$navbar-default-toggle-hover-bg:            $gray-lighter;
+$navbar-default-toggle-icon-bar-bg:         $gray;
+$navbar-default-toggle-border-color:        $gray-light;
 
 $navbar-inverse-color:                      lighten($gray-light, 15%);
 $navbar-inverse-bg:                         $gray-darker;
